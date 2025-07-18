@@ -1,9 +1,10 @@
 <br>
 
-### Introduction
 <video src="https://github.com/asamu12/CARIS/blob/main/issue/grasp.mp4" autoplay loop muted width="500">
   Your browser does not support the video tag.
 </video>
+
+### Introduction
 
 This project is a demo version, used for testing and verifying the effectiveness of RISgrasp. The Complete version will be uploaded after acceptance.
 ![Image](https://github.com/asamu12/CARIS/blob/main/fig/Overview.jpg)
