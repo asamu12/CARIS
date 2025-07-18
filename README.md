@@ -1,7 +1,7 @@
 <br>
 
 ### Introduction
-![Image]([https://github.com/asamu12/RISgrasp/blob/main/fig/Overview.jpg](https://github.com/asamu12/CARIS/blob/main/issue/grasp.gif))
+![Grasp GIF](https://github.com/asamu12/CARIS/blob/main/issue/grasp.gif)
 ![Image](https://github.com/asamu12/RISgrasp/blob/main/fig/Overview.jpg)
 This project is a demo version, used for testing and verifying the effectiveness of RISgrasp. The Complete version will be uploaded after acceptance.
 ### Requirement
