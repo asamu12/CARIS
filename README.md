@@ -12,18 +12,28 @@ https://github.com/user-attachments/assets/4be32150-1893-42ae-aa94-eeccbd94f33a
 
 This project is a demo version, used for testing and verifying the effectiveness of RISgrasp. The Complete version will be uploaded after acceptance.
 ![Image](https://github.com/asamu12/CARIS/blob/main/fig/Overview.jpg)
-### Requirement
 
-- numpy==1.26.0
-- pyarrow==11.0.0
-- regex==2023.8.8
-- ftfy==6.1.1
-- loguru==0.7.2
-- pycocotools==2.0.7
-- matplotlib==3.8.0
-- tqdm==4.66.1
-- opencv-python==4.8.1.78
-- fvcore==0.1.5.post20221221
-- scikit-image
+
+## Environment
+```bash
+conda create -n DETRIS python=3.9.18 -y
+conda activate DETRIS
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+pip install -r requirement.txt
 ```
-pip install -r requirements.txt
+
+## Datasets
+The detailed instruction is in [prepare_datasets.md](tools/prepare_datasets.md)
+
+## Pretrained weights
+Download the pretrained weights of DiNOv2-B, DiNOv2-L and ViT-B to pretrain
+```bash
+mkdir pretrain && cd pretrain
+## DiNOv2-B
+wget https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_reg4_pretrain.pth
+## DiNOv2-L
+wget https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_pretrain.pth
+## ViT-B
+wget https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt
+```
+

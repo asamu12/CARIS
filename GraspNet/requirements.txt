@@ -1,0 +1,11 @@
+numpy
+scipy
+open3d==0.8
+Pillow
+tqdm
+
+tensorflow
+scikit-learn
+
+torch>=1.6
+tensorboard
